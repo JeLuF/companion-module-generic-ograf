@@ -1,0 +1,28 @@
+{
+	"$schema": "../node_modules/@companion-module/base/assets/manifest.schema.json",
+	"type": "connection",
+	"id": "generic-ograf",
+	"name": "OGraf Server API",
+	"shortname": "ograf",
+	"description": "Control OGraf graphics on any server implementing the OGraf Server API: load, play, stop, update, custom actions",
+	"version": "0.0.0",
+	"license": "MIT",
+	"repository": "git+https://github.com/bitfocus/companion-module-generic-ograf.git",
+	"bugs": "https://github.com/bitfocus/companion-module-generic-ograf/issues",
+	"maintainers": [
+		{
+			"name": "JeLuF",
+			"email": "jens.l.frank@gmail.com"
+		}
+	],
+	"runtime": {
+		"type": "node26",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../dist/main.js"
+	},
+	"legacyIds": [],
+	"manufacturer": "Generic",
+	"products": ["OGraf"],
+	"keywords": ["ograf", "ebu", "graphics", "overlay", "obs", "vmix", "lower third", "streaming"]
+}
