@@ -5,7 +5,7 @@
 	"name": "OGraf Server API",
 	"shortname": "ograf",
 	"description": "Control OGraf graphics on any server implementing the OGraf Server API: load, play, stop, update, custom actions",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"license": "MIT",
 	"repository": "git+https://github.com/bitfocus/companion-module-generic-ograf.git",
 	"bugs": "https://github.com/bitfocus/companion-module-generic-ograf/issues",
